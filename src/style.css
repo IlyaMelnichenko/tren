@@ -18,8 +18,18 @@ img{
 }
 .cat-list{
     height: 150px;
-    
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+    margin-top:24px;
+    height: 100px;
+    overflow:auto;
+   
 }
+
+/* .cat-item{
+    margin-bottom: 18px;
+} */
 .popular-item{
     display: flex;
 }
@@ -34,3 +44,7 @@ border-radius:15px;
 
 padding:14px 29px 14px 29px;
 }
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Цвет бегунка */
+    border-radius: 20px; /* Скругление краев бегунка */
+  }
